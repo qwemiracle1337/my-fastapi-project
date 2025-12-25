@@ -16,8 +16,10 @@
 - Python 3.11+ (для локального запуска без Docker)
 
 Оба сервиса упакованы в Docker и могут запускаться независимо друг от друга:
-    1) https://hub.docker.com/repository/docker/qwemiracle12344/todo-service/general
-    2) https://hub.docker.com/repository/docker/qwemiracle12344/short_url-service/general
+
+  1) https://hub.docker.com/repository/docker/qwemiracle12344/todo-service/general
+
+  2) https://hub.docker.com/repository/docker/qwemiracle12344/short_url-service/general
 
 ##  Запуск через Docker
 

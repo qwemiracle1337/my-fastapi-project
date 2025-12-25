@@ -54,7 +54,7 @@ def shorten_url(url: URLCreate):
 
     cursor.execute(
     "INSERT INTO urls (short_id, full_url) VALUES (?, ?)", 
-    (short_id, str(url.url))  # <- преобразуем в строку
+    (short_id, str(url.url))  
 )
     conn.commit()
     conn.close()

@@ -21,16 +21,18 @@
 
 ##  Запуск через Docker
 
-### 1. Создать тома для хранения данных
+#### 1. Создать тома для хранения данных
 ```bash
 docker volume create todo_data
 docker volume create shorturl_data
 ```
+#### 2. Запуск сервисов
+
 Для Todo Service:```docker run -d -p 8000:80 -v todo_data:/app/data qwemiracle12344/todo-service:latest```
 
 Для Short URL Service:```docker run -d -p 8001:80 -v shorturl_data:/app/data qwemiracle12344/short_url-service:latest```
 
-Проверка работы
+#### 3. Проверка работы
 
 Todo Service: http://localhost:8000/docs
 
